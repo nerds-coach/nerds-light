@@ -1,5 +1,6 @@
 {
   "app": "lightcraft",
   "upstream": "storytold/lightcraft",
-  "name": "NERDS Light"
+  "name": "NERDS Light",
+  "upstream_name": "LightCraft"
 }
