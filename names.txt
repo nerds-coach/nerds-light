@@ -1,0 +1,202 @@
+NERDS names: 187 changes, 13 kept, 0 warnings
+
+rust  apps/lightcraft-cli/src/main.rs:28  '\\\r\nlightcraft-cli — headless LightCraft (photo library + raw developer)\r\n\r\nUSAGE:\r\n  light' -> '\\\r\nlightcraft-cli — headless NERDS Light (photo library + raw developer)\r\n\r\nUSAGE:\r\n  ligh'
+rust  apps/lightcraft-cli/src/main.rs:136  '{e}\\nOpen a LightCraft library with `--library DIR` (an empty folder makes a new one) and ' -> '{e}\\nOpen a NERDS Light library with `--library DIR` (an empty folder makes a new one) and'
+rust  apps/lightcraft-cli/src/main.rs:338  'lightcraft-cli mcp: connected to LightCraft at {addr}' -> 'lightcraft-cli mcp: connected to NERDS Light at {addr}'
+rust  apps/lightcraft-cli/src/main.rs:342  'lightcraft-cli mcp: LightCraft is not reachable at {addr} yet ({e}); will retry on each ca' -> 'lightcraft-cli mcp: NERDS Light is not reachable at {addr} yet ({e}); will retry on each c'
+rust  apps/lightcraft-cli/src/main.rs:582  'LightCraft is not reachable at {addr} ({e}); start it with `lightcraft --control {}`' -> 'NERDS Light is not reachable at {addr} ({e}); start it with `lightcraft --control {}`'
+rust  apps/lightcraft/build.rs:17  'LightCraft' -> 'NERDS Light'
+rust  apps/lightcraft/build.rs:18  'LightCraft photo library and raw developer' -> 'NERDS Light photo library and raw developer'
+rust  apps/lightcraft/src/editors.rs:123  "PhotoCraft isn't installed. Get it from getartcraft.com/apps/photocraft, or give where it " -> "NERDS Photo isn't installed. Get it from getartcraft.com/apps/photocraft, or give where it"
+kept  apps/lightcraft/src/editors.rs:188  out.extend(env(var).map(|d| Path::new(&d).join("PhotoCraft").join("photocraft.exe")));
+kept  apps/lightcraft/src/editors.rs:190  out.extend(env("LOCALAPPDATA").map(|d| Path::new(&d).join("Programs").join("PhotoCraft").join("photocraft.exe")));
+rust  apps/lightcraft/src/gpu_crash.rs:53  'LightCraft closed unexpectedly while starting the GPU last time ({what}), so GPU rendering' -> 'NERDS Light closed unexpectedly while starting the GPU last time ({what}), so GPU renderin'
+rust  apps/lightcraft/src/gpu_crash.rs:92  'LightCraft stopped last time after the graphics driver reset the GPU ({}) while photos ren' -> 'NERDS Light stopped last time after the graphics driver reset the GPU ({}) while photos re'
+rust  apps/lightcraft/src/launch.rs:3  '\\\r\nlightcraft — photo library + raw developer\r\n\r\nUSAGE: lightcraft [OPTIONS] [FILES/FOLDER' -> '\\\r\nlightcraft — photo library + raw developer\r\n\r\nUSAGE: lightcraft [OPTIONS] [FILES/FOLDER'
+rust  apps/lightcraft/src/launch.rs:87  '{error}. The graphics driver reset the GPU ({reason}). LightCraft renders on the CPU from ' -> '{error}. The graphics driver reset the GPU ({reason}). NERDS Light renders on the CPU from'
+rust  apps/lightcraft/src/launch.rs:97  'LightCraft stopped: {text}' -> 'NERDS Light stopped: {text}'
+rust  apps/lightcraft/src/launch.rs:114  'LightCraft could not open its window: {error}' -> 'NERDS Light could not open its window: {error}'
+rust  apps/lightcraft/src/main.rs:184  'LightCraft {}, log file {}' -> 'NERDS Light {}, log file {}'
+rust  apps/lightcraft/src/main.rs:228  'LightCraft' -> 'NERDS Light'
+kept  apps/lightcraft/src/main.rs:256  "LightCraft",
+rust  apps/lightcraft/src/main.rs:365  'LightCraft could not open its window with {}: {e}; trying the next renderer' -> 'NERDS Light could not open its window with {}: {e}; trying the next renderer'
+rust  apps/lightcraft/src/native_menu.rs:347  'LightCraft' -> 'NERDS Light'
+rust  apps/lightcraft/src/native_menu.rs:348  'About LightCraft' -> 'About NERDS Light'
+rust  apps/lightcraft/src/native_menu.rs:350  'Quit LightCraft' -> 'Quit NERDS Light'
+rust  apps/lightcraft/src/native_menu.rs:358  'Hide LightCraft' -> 'Hide NERDS Light'
+rust  apps/lightcraft/src/native_menu.rs:364  'Quit LightCraft' -> 'Quit NERDS Light'
+rust  apps/lightcraft/src/prefs.rs:237  '{e}. LightCraft keeps trying.' -> '{e}. NERDS Light keeps trying.'
+rust  apps/lightcraft/src/session.rs:161  'LightCraft Preset' -> 'NERDS Light Preset'
+kept  apps/lightcraft/src/window_gpu.rs:138  app = "LightCraft",
+rust  crates/catalog/src/journal.rs:353  '{SNAPSHOT}: not a LightCraft catalog (format {:?})' -> '{SNAPSHOT}: not a NERDS Light catalog (format {:?})'
+rust  crates/catalog/src/lib.rs:66  'this library was written by a newer version of LightCraft ({0}); update LightCraft to open' -> 'this library was written by a newer version of NERDS Light ({0}); update NERDS Light to op'
+rust  crates/catalog/src/lock.rs:64  'another LightCraft' -> 'another NERDS Light'
+rust  crates/catalog/src/lock.rs:86  'another LightCraft program' -> 'another NERDS Light program'
+rust  crates/codecs/src/heif.rs:25  "HEIC/HEIF support isn't included in this build of LightCraft" -> "HEIC/HEIF support isn't included in this build of NERDS Light"
+rust  crates/denoise-core/src/known.rs:34  'The weights are published under the GNU General Public License v3. LightCraft does not inc' -> 'The weights are published under the GNU General Public License v3. NERDS Light does not in'
+rust  crates/engine/src/apple_photos.rs:40  'on run argv\r\n\tif (count of argv) < 3 then error "LightCraft: no files to import" number -5' -> 'on run argv\r\n\tif (count of argv) < 3 then error "NERDS Light: no files to import" number -'
+rust  crates/engine/src/apple_photos.rs:176  "LightCraft isn't allowed to control Photos. Allow it in System Settings › Privacy & Securi" -> "NERDS Light isn't allowed to control Photos. Allow it in System Settings › Privacy & Secur"
+rust  crates/engine/src/cmd/convert.rs:398  '{ids?, colorSpace?: adobeRgb (default) | proPhoto | displayP3 | srgb, format?: tiff (defau' -> '{ids?, colorSpace?: adobeRgb (default) | proPhoto | displayP3 | srgb, format?: tiff (defau'
+rust  crates/engine/src/cmd/denoise.rs:125  'LightCraft does not know this file. A denoise model is an .onnx file with a denoise-model.' -> 'NERDS Light does not know this file. A denoise model is an .onnx file with a denoise-model'
+rust  crates/engine/src/cmd/denoise.rs:325  "No denoise-model.json beside this .onnx file. The model.json there is another app's descri" -> "No denoise-model.json beside this .onnx file. The model.json there is another app's descri"
+rust  crates/engine/src/cmd/denoise.rs:328  'No denoise-model.json beside this .onnx file: LightCraft needs one that says how to use th' -> 'No denoise-model.json beside this .onnx file: NERDS Light needs one that says how to use t'
+rust  crates/engine/src/cmd/denoise.rs:380  'LightCraft has no download for that model: get the file from its page, then add it' -> 'NERDS Light has no download for that model: get the file from its page, then add it'
+rust  crates/engine/src/cmd/denoise.rs:381  'LightCraft has no download for that model: get the file from its page, then add it' -> 'NERDS Light has no download for that model: get the file from its page, then add it'
+rust  crates/engine/src/cmd/denoise.rs:657  '{path, acknowledged: true, activate?: true, background?: false} → {installed, model} or {s' -> '{path, acknowledged: true, activate?: true, background?: false} → {installed, model} or {s'
+rust  crates/engine/src/cmd/denoise.rs:658  '{id, acknowledged: true} → {started, from} — fetch a model LightCraft has a pinned address' -> '{id, acknowledged: true} → {started, from} — fetch a model NERDS Light has a pinned addres'
+rust  crates/engine/src/cmd/denoise.rs:664  '{auto?: bool, cacheGb?: 1..10000, threads?: 1..64 | null, runOn?: auto | gpu | cpu} → the ' -> '{auto?: bool, cacheGb?: 1..10000, threads?: 1..64 | null, runOn?: auto | gpu | cpu} → the '
+rust  crates/engine/src/cmd/export.rs:226  '{paths: [absolute file paths], album?: name (an album at the top level of Photos, made whe' -> '{paths: [absolute file paths], album?: name (an album at the top level of Photos, made whe'
+rust  crates/engine/src/cmd/face_models.rs:357  'LightCraft has no download for that model: get the file from its page, then add it' -> 'NERDS Light has no download for that model: get the file from its page, then add it'
+rust  crates/engine/src/cmd/face_models.rs:531  '{id, acknowledged: true} → {started, from} — fetch a recognition model LightCraft has a pi' -> '{id, acknowledged: true} → {started, from} — fetch a recognition model NERDS Light has a p'
+rust  crates/engine/src/cmd/masks.rs:579  "{acknowledged: true} — download the SAM 3 model (about 3.4 GB, Meta's SAM License, not Lig" -> "{acknowledged: true} — download the SAM 3 model (about 3.4 GB, Meta's SAM License, not NER"
+rust  crates/engine/src/cmd/recheck.rs:125  '{all?: bool} — probe again the raws shown from their embedded preview whose flag another L' -> '{all?: bool} — probe again the raws shown from their embedded preview whose flag another N'
+kept  crates/engine/src/config.rs:60  Platform::Windows => env("APPDATA").map(|a| PathBuf::from(a).join("LightCraft")),
+rust  crates/engine/src/demo.rs:30  'LightCraft Demo' -> 'NERDS Light Demo'
+rust  crates/engine/src/denoise/gpu.rs:28  'LightCraft closed while it was setting up the graphics card for AI Denoise last time' -> 'NERDS Light closed while it was setting up the graphics card for AI Denoise last time'
+kept  crates/engine/src/export/encoding.rs:308  software: Some("LightCraft".into()),
+rust  crates/engine/src/lib.rs:110  'saved in memory but not written to disk: {0}; LightCraft will retry' -> 'saved in memory but not written to disk: {0}; NERDS Light will retry'
+rust  crates/engine/src/lib.rs:118  '{} is a Lightroom Classic catalog, not a LightCraft library; import it into a LightCraft l' -> '{} is a Lightroom Classic catalog, not a NERDS Light library; import it into a NERDS Light'
+rust  crates/engine/src/library.rs:33  'LightCraft Library' -> 'NERDS Light Library'
+rust  crates/engine/src/library.rs:295  'LightCraft' -> 'NERDS Light'
+rust  crates/engine/src/library.rs:320  "{name} couldn't be read ({e}). LightCraft uses the defaults for now and won't overwrite th" -> "{name} couldn't be read ({e}). NERDS Light uses the defaults for now and won't overwrite t"
+rust  crates/engine/src/library.rs:337  "{name} is damaged ({err}) and couldn't be set aside ({w}). LightCraft uses the defaults an" -> "{name} is damaged ({err}) and couldn't be set aside ({w}). NERDS Light uses the defaults a"
+rust  crates/engine/src/library.rs:865  "This library could not be locked (its catalog.lock file can't be locked where it is stored" -> "This library could not be locked (its catalog.lock file can't be locked where it is stored"
+rust  crates/engine/src/lightroom_catalog.rs:680  "image {}: not imported; {} isn't one of the file types LightCraft reads" -> "image {}: not imported; {} isn't one of the file types NERDS Light reads"
+rust  crates/engine/src/media/render.rs:260  'LightCraft is closing' -> 'NERDS Light is closing'
+rust  crates/engine/src/merge.rs:226  'LightCraft Photo Merge' -> 'NERDS Light Photo Merge'
+rust  crates/engine/src/open_path.rs:32  "{name} isn't one of the file types LightCraft reads, so it isn't handed to another applica" -> "{name} isn't one of the file types NERDS Light reads, so it isn't handed to another applic"
+rust  crates/engine/src/open_path.rs:43  "{name} points at {}, which isn't a file type LightCraft reads" -> "{name} points at {}, which isn't a file type NERDS Light reads"
+rust  crates/engine/src/originals.rs:156  '{}: LightCraft cannot tell whether this is {what} in the library ({e}) and never writes ov' -> '{}: NERDS Light cannot tell whether this is {what} in the library ({e}) and never writes o'
+rust  crates/engine/src/originals.rs:165  '{} is {what} in the library: LightCraft never writes over an original (choose another fold' -> '{} is {what} in the library: NERDS Light never writes over an original (choose another fol'
+rust  crates/engine/src/print/template.rs:104  'print template file version {n} is not one this version of LightCraft reads (1 to {FILE_VE' -> 'print template file version {n} is not one this version of NERDS Light reads (1 to {FILE_V'
+rust  crates/engine/src/print_pdf.rs:317  '<< /Producer (LightCraft){title} >>' -> '<< /Producer (NERDS Light){title} >>'
+rust  crates/engine/src/segment.rs:272  '{NOT_INSTALLED}. Download it (about {:.1} GB, {LICENSE_NAME}) when LightCraft offers it, w' -> '{NOT_INSTALLED}. Download it (about {:.1} GB, {LICENSE_NAME}) when NERDS Light offers it, '
+rust  crates/engine/src/segment/worker.rs:88  "The GPU couldn't run the AI mask model, so it runs on the CPU until LightCraft restarts (s" -> "The GPU couldn't run the AI mask model, so it runs on the CPU until NERDS Light restarts ("
+kept  crates/engine/src/sidecar.rs:358  software: Some("LightCraft".into()),
+kept  crates/engine/src/slide_overlay.rs:219  text: "LightCraft".into(),
+rust  crates/engine/src/slide_template.rs:212  'made by a newer LightCraft (template version {n}; this one reads version {VERSION}): updat' -> 'made by a newer NERDS Light (template version {n}; this one reads version {VERSION}): upda'
+rust  crates/engine/src/slide_template.rs:383  "the file name isn't one LightCraft makes (letters, digits, spaces, - _ ( ) only); rename t" -> "the file name isn't one NERDS Light makes (letters, digits, spaces, - _ ( ) only); rename "
+rust  crates/engine/src/slide_template.rs:475  "`{id}` isn't a template id (user templates are `user:` and a file name LightCraft made)" -> "`{id}` isn't a template id (user templates are `user:` and a file name NERDS Light made)"
+rust  crates/engine/src/slide_template.rs:516  'user templates need a settings folder, and this LightCraft has none (the web build, or LIG' -> 'user templates need a settings folder, and this NERDS Light has none (the web build, or LI'
+rust  crates/faces/src/catalog.rs:95  'that id belongs to a model LightCraft already knows' -> 'that id belongs to a model NERDS Light already knows'
+rust  crates/faces/src/catalog.rs:98  'LightCraft already knows a model with that file' -> 'NERDS Light already knows a model with that file'
+rust  crates/faces/src/suggest.rs:97  'LightCraft does not know where this model came from or what its licence allows. Use it onl' -> 'NERDS Light does not know where this model came from or what its licence allows. Use it on'
+rust  crates/gpu/src/lib.rs:85  'LightCraft is closing' -> 'NERDS Light is closing'
+rust  crates/gpu/src/nn.rs:75  'LightCraft is closing' -> 'NERDS Light is closing'
+rust  crates/mcp/src/backend.rs:95  'lost the LightCraft app at {addr} after sending `{method}` ({e}); the outcome is unknown a' -> 'lost the NERDS Light app at {addr} after sending `{method}` ({e}); the outcome is unknown '
+rust  crates/mcp/src/backend.rs:156  'LightCraft app at {} is not reachable: {e} (start it with `lightcraft --control PORT`)' -> 'NERDS Light app at {} is not reachable: {e} (start it with `lightcraft --control PORT`)'
+rust  crates/mcp/src/server.rs:26  'LightCraft is a non-destructive photo library and raw developer (a Lightroom alternative).' -> 'NERDS Light is a non-destructive photo library and raw developer (a Lightroom alternative)'
+kept  crates/mcp/src/server.rs:170  "serverInfo": {"name": "lightcraft", "title": "LightCraft", "version": env!("CARGO_PKG_VERSION")},
+rust  crates/mcp/src/tools.rs:94  'Run any LightCraft command by id with JSON params (see command_list for ids and parameter ' -> 'Run any NERDS Light command by id with JSON params (see command_list for ids and parameter'
+rust  crates/mcp/src/tools.rs:136  'Run any LightCraft command by id with JSON params (see list_commands for ids and parameter' -> 'Run any NERDS Light command by id with JSON params (see list_commands for ids and paramete'
+rust  crates/mcp/src/tools.rs:268  "macOS: after writing the files, add them to Apple Photos (Apple Events to Photos' import; " -> "macOS: after writing the files, add them to Apple Photos (Apple Events to Photos' import; "
+rust  crates/mcp/src/tools.rs:283  'Capture the LightCraft window (after pending renders finish) and return it as an image. `p' -> 'Capture the NERDS Light window (after pending renders finish) and return it as an image. `'
+kept  crates/merge/src/synth.rs:44  make: Some("LightCraft".into()),
+rust  crates/meta/src/xmp.rs:680  '<x:xmpmeta xmlns:x=\\"adobe:ns:meta/\\" x:xmptk=\\"LightCraft\\">\\n' -> '<x:xmpmeta xmlns:x=\\"adobe:ns:meta/\\" x:xmptk=\\"NERDS Light\\">\\n'
+rust  crates/preview/src/disk.rs:66  "Signature: 8a477f597d28d172789f06886806bc55\\n\\\r\n# This folder holds LightCraft's thumbnail" -> "Signature: 8a477f597d28d172789f06886806bc55\\n\\\r\n# This folder holds NERDS Light's thumbnai"
+kept  crates/raw/src/dng.rs:394  let legacy_writer = [raw, ifd0].iter().any(|i| i.string(t::SOFTWARE).as_deref().map(str::trim) == Some("LightCraft"));
+rust  crates/raw/src/dngwrite.rs:91  'LightCraft DNG 2' -> 'NERDS Light DNG 2'
+kept  crates/raw/src/dngwrite.rs:217  ifd.set(t::UNIQUE_CAMERA_MODEL, Value::Ascii(if unique.is_empty() { "LightCraft".into() } else { unique }));
+rust  crates/ui-egui/src/app.rs:402  '{n} change{} saved in memory but not written to disk: {e} — LightCraft will retry' -> '{n} change{} saved in memory but not written to disk: {e} — NERDS Light will retry'
+rust  crates/ui-egui/src/app/frame.rs:134  "The XMP sidecars of {n} photos couldn't be written (is their folder offline?). LightCraft " -> "The XMP sidecars of {n} photos couldn't be written (is their folder offline?). NERDS Light"
+rust  crates/ui-egui/src/app/frame.rs:289  'LightCraft — {name}' -> 'NERDS Light — {name}'
+rust  crates/ui-egui/src/app/frame.rs:290  'LightCraft' -> 'NERDS Light'
+rust  crates/ui-egui/src/app/frame.rs:301  '{}{dot} — LightCraft' -> '{}{dot} — NERDS Light'
+rust  crates/ui-egui/src/control.rs:521  'LightCraft Exports' -> 'NERDS Light Exports'
+rust  crates/ui-egui/src/dialogs.rs:285  'About LightCraft' -> 'About NERDS Light'
+rust  crates/ui-egui/src/dialogs.rs:1476  'The first time, macOS asks whether LightCraft may control Photos.' -> 'The first time, macOS asks whether NERDS Light may control Photos.'
+rust  crates/ui-egui/src/dialogs.rs:1682  'This is a Lightroom catalog, not a LightCraft library. Import it into a LightCraft library' -> 'This is a Lightroom catalog, not a NERDS Light library. Import it into a NERDS Light libra'
+rust  crates/ui-egui/src/dialogs.rs:1731  'LightCraft' -> 'NERDS Light'
+rust  crates/ui-egui/src/dialogs.rs:1750  'LightCraft website' -> 'NERDS Light website'
+rust  crates/ui-egui/src/dialogs/faces.rs:456  'It is not a face recognition model LightCraft understands' -> 'It is not a face recognition model NERDS Light understands'
+rust  crates/ui-egui/src/dialogs/faces.rs:479  'Downloads from {host}. Once it has arrived and checked out, LightCraft installs it{}.' -> 'Downloads from {host}. Once it has arrived and checked out, NERDS Light installs it{}.'
+rust  crates/ui-egui/src/dialogs/faces.rs:501  'LightCraft does not know this model, so it assumed:' -> 'NERDS Light does not know this model, so it assumed:'
+rust  crates/ui-egui/src/dialogs/faces.rs:516  'Nothing is fetched until you accept. The model is kept on this computer only; LightCraft n' -> 'Nothing is fetched until you accept. The model is kept on this computer only; NERDS Light '
+rust  crates/ui-egui/src/dialogs/faces.rs:518  'The model is kept on this computer only. LightCraft never uploads or shares it.' -> 'The model is kept on this computer only. NERDS Light never uploads or shares it.'
+rust  crates/ui-egui/src/dialogs/lightroom_destination.rs:295  'LightCraft opens the new library, then imports the catalog into it. Its folder must be new' -> 'NERDS Light opens the new library, then imports the catalog into it. Its folder must be ne'
+rust  crates/ui-egui/src/dialogs/sam_model.rs:52  "Object and Describe masks use SAM 3, Meta's segmentation model. It isn't part of LightCraf" -> "Object and Describe masks use SAM 3, Meta's segmentation model. It isn't part of NERDS Lig"
+rust  crates/ui-egui/src/dialogs/sam_model.rs:60  "Meta's terms, not LightCraft's. Downloading it means accepting them." -> "Meta's terms, not NERDS Light's. Downloading it means accepting them."
+rust  crates/ui-egui/src/dialogs/settings/general.rs:79  'PhotoCraft' -> 'NERDS Photo'
+rust  crates/ui-egui/src/dialogs/settings/general.rs:90  'Photo ▸ Edit In ▸ Edit in PhotoCraft (⇧⌘E, or right-click a photo) renders a copy with you' -> 'Photo ▸ Edit In ▸ Edit in NERDS Photo (⇧⌘E, or right-click a photo) renders a copy with yo'
+rust  crates/ui-egui/src/dialogs/settings/import.rs:10  'LightCraft Default' -> 'NERDS Light Default'
+rust  crates/ui-egui/src/dialogs/settings/import.rs:38  'LightCraft Default' -> 'NERDS Light Default'
+rust  crates/ui-egui/src/dialogs/settings/import.rs:52  'LightCraft Default' -> 'NERDS Light Default'
+rust  crates/ui-egui/src/dialogs/settings/import.rs:185  'In-memory session: these settings last until LightCraft quits.' -> 'In-memory session: these settings last until NERDS Light quits.'
+rust  crates/ui-egui/src/dialogs/updates_ui.rs:114  'LightCraft {version} is currently the newest version available.' -> 'NERDS Light {version} is currently the newest version available.'
+rust  crates/ui-egui/src/dialogs/updates_ui.rs:124  'LightCraft Updates' -> 'NERDS Light Updates'
+rust  crates/ui-egui/src/i18n.rs:321  'LightCraft could not open its window: {e}\\n\\nThe log file has the details: {path}' -> 'NERDS Light could not open its window: {e}\\n\\nThe log file has the details: {path}'
+rust  crates/ui-egui/src/i18n.rs:322  'LightCraft could not open its window: {e}' -> 'NERDS Light could not open its window: {e}'
+rust  crates/ui-egui/src/i18n.rs:324  'LightCraft could not start' -> 'NERDS Light could not start'
+rust  crates/ui-egui/src/i18n.rs:332  'LightCraft stopped unexpectedly: {e}\\n\\nThe log file has the details: {path}' -> 'NERDS Light stopped unexpectedly: {e}\\n\\nThe log file has the details: {path}'
+rust  crates/ui-egui/src/i18n.rs:333  'LightCraft stopped unexpectedly: {e}' -> 'NERDS Light stopped unexpectedly: {e}'
+rust  crates/ui-egui/src/i18n.rs:335  'LightCraft stopped' -> 'NERDS Light stopped'
+rust  crates/ui-egui/src/lightroom_import.rs:140  'Lightroom catalog import is unavailable in browser builds; open the catalog in the native ' -> 'Lightroom catalog import is unavailable in browser builds; open the catalog in the native '
+rust  crates/ui-egui/src/links.rs:19  'LightCraft Help' -> 'NERDS Light Help'
+rust  crates/ui-egui/src/links.rs:21  'LightCraft Website' -> 'NERDS Light Website'
+rust  crates/ui-egui/src/links.rs:22  'LightCraft on GitHub' -> 'NERDS Light on GitHub'
+rust  crates/ui-egui/src/menus/run.rs:1385  'LightCraft Presets' -> 'NERDS Light Presets'
+rust  crates/ui-egui/src/menus/run.rs:1386  'LightCraft Preset' -> 'NERDS Light Preset'
+rust  crates/ui-egui/src/menus/run.rs:2087  'LightCraft Effect Presets' -> 'NERDS Light Effect Presets'
+rust  crates/ui-egui/src/menus/ui_commands.rs:213  'Edit in PhotoCraft' -> 'Edit in NERDS Photo'
+rust  crates/ui-egui/src/menus/ui_commands.rs:235  'Quit LightCraft' -> 'Quit NERDS Light'
+rust  crates/ui-egui/src/menus/ui_commands.rs:254  'About LightCraft' -> 'About NERDS Light'
+rust  crates/ui-egui/src/menus/ui_commands.rs:262  'LightCraft Help' -> 'NERDS Light Help'
+rust  crates/ui-egui/src/menus/ui_commands.rs:265  'LightCraft Website' -> 'NERDS Light Website'
+rust  crates/ui-egui/src/menus/ui_commands.rs:266  'LightCraft on GitHub' -> 'NERDS Light on GitHub'
+rust  crates/ui-egui/src/panels/denoise.rs:703  'It is not a denoise model LightCraft understands' -> 'It is not a denoise model NERDS Light understands'
+rust  crates/ui-egui/src/panels/denoise.rs:726  'Downloads from {host}. Once it has arrived and checked out, LightCraft installs it, {after' -> 'Downloads from {host}. Once it has arrived and checked out, NERDS Light installs it, {afte'
+rust  crates/ui-egui/src/panels/denoise.rs:747  'LightCraft does not know this model, so it assumed:' -> 'NERDS Light does not know this model, so it assumed:'
+rust  crates/ui-egui/src/panels/denoise.rs:762  'Nothing is fetched until you accept. The model is kept on this computer only; LightCraft n' -> 'Nothing is fetched until you accept. The model is kept on this computer only; NERDS Light '
+rust  crates/ui-egui/src/panels/denoise.rs:764  'The model is kept on this computer only. LightCraft never uploads or shares it.' -> 'The model is kept on this computer only. NERDS Light never uploads or shares it.'
+rust  crates/ui-egui/src/panels/grid.rs:1280  'Edit in PhotoCraft' -> 'Edit in NERDS Photo'
+rust  crates/ui-egui/src/panels/library_problem.rs:459  'There is no LightCraft library in this folder any more' -> 'There is no NERDS Light library in this folder any more'
+rust  crates/ui-egui/src/panels/library_problem.rs:1032  "LightCraft couldn't find where to keep your library." -> "NERDS Light couldn't find where to keep your library."
+rust  crates/ui-egui/src/panels/library_problem.rs:1034  "LightCraft couldn't open the library at" -> "NERDS Light couldn't open the library at"
+rust  crates/ui-egui/src/panels/notices.rs:34  'No graphics processor found: LightCraft renders on the CPU, which is much slower. Details ' -> 'No graphics processor found: NERDS Light renders on the CPU, which is much slower. Details'
+rust  crates/ui-egui/src/panels/second.rs:17  'LightCraft — Second Window' -> 'NERDS Light — Second Window'
+rust  crates/ui-egui/src/panels/topbar.rs:267  '{n} change{} saved in memory but not written to disk: {e}\\nLightCraft retries automaticall' -> '{n} change{} saved in memory but not written to disk: {e}\\nNERDS Light retries automatical'
+kept  crates/ui-egui/src/state/settings.rs:251  pub const PHOTOCRAFT: &str = "PhotoCraft";
+rust  crates/ui-egui/src/widgets.rs:201  'Nikon High Efficiency NEF (HE / HE★) uses intoPIX TicoRAW compression. LightCraft does not' -> 'Nikon High Efficiency NEF (HE / HE★) uses intoPIX TicoRAW compression. NERDS Light does no'
+rust  crates/ui-egui/src/widgets.rs:206  "LightCraft can't decode this raw variant yet ({}). You're editing the camera's embedded JP" -> "NERDS Light can't decode this raw variant yet ({}). You're editing the camera's embedded J"
+i18n  crates/ui-egui/locales/cs-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/cs.json  (29 lines)
+i18n  crates/ui-egui/locales/de-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/de.json  (91 lines)
+i18n  crates/ui-egui/locales/es-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/es.json  (38 lines)
+i18n  crates/ui-egui/locales/fi-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/fi.json  (28 lines)
+i18n  crates/ui-egui/locales/fr-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/fr.json  (40 lines)
+i18n  crates/ui-egui/locales/id-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/id.json  (28 lines)
+i18n  crates/ui-egui/locales/it-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/it.json  (28 lines)
+i18n  crates/ui-egui/locales/ja-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/ja.json  (39 lines)
+i18n  crates/ui-egui/locales/ka-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/ka.json  (68 lines)
+i18n  crates/ui-egui/locales/pl-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/pl.json  (39 lines)
+i18n  crates/ui-egui/locales/pt-br-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/pt-br.json  (24 lines)
+i18n  crates/ui-egui/locales/ru-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/ru.json  (41 lines)
+i18n  crates/ui-egui/locales/sv-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/sv.json  (42 lines)
+i18n  crates/ui-egui/locales/uk-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/uk.json  (38 lines)
+i18n  crates/ui-egui/locales/vi-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/vi.json  (41 lines)
+i18n  crates/ui-egui/locales/zh-hans-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/zh-hans.json  (24 lines)
+i18n  crates/ui-egui/locales/zh-hant-formats.json  (9 lines)
+i18n  crates/ui-egui/locales/zh-hant.json  (24 lines)
+win   packaging/windows/font-licences.ps1  (1 lines)
+win   packaging/windows/install-policy.json  (35 lines)
+win   packaging/windows/lightcraft.wxs  (11 lines)
+win   packaging/windows/package.ps1  (2 lines)
+win   packaging/windows/test-install-folder.ps1  (1 lines)
+mac   packaging/macos/Info.plist.in  (3 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (12 lines)
