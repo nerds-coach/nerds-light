@@ -1,0 +1,9 @@
+total 458736
+-rw-r--r-- 1 runner runner       421 Nov 12 08:01 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 125703291 Nov 12 08:01 lightcraft-0.21.1-macos-universal.dmg
+-rw-r--r-- 1 runner runner 122753447 Nov 12 08:01 lightcraft-0.21.1-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner  99823616 Nov 12 08:01 lightcraft-0.21.1-windows-x64.msi
+-rw-r--r-- 1 runner runner 121454470 Nov 12 08:01 lightcraft-cli-0.21.1-macos-universal.zip
+1334 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-light/releases/tag/untagged-af59a66d3647566a9880
+https://github.com/nerds-coach/nerds-light/releases/tag/v0.21.1
